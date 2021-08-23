@@ -30,7 +30,7 @@
     }
   },
   "require": {
-    "energia-source/knight-artifact-entity": "*"
+    "knight/artifact-entity": "*"
   },
   "repositories": [
     {
