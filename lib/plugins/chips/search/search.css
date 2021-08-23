@@ -1,0 +1,5 @@
+div.form.content div.chips-wrapper ul.search { display: none; max-height: 200px; overflow-y: auto; z-index: 2048; background-color: #fff; border: 1px solid #ccc; border-top: 0; border-radius: 2px; }
+div.form.content div.chips-wrapper ul.search li.result { padding: 5px; min-height: 19px; }
+div.form.content div.chips-wrapper ul.search li.result.hover:hover { cursor: pointer; background-color: #f1f1f1; }
+div.form.content div.chips-wrapper ul.search li.result.empty { text-align: center; }
+div.form.content div.chips-wrapper ul.search.show { display: block; }

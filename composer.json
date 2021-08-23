@@ -1,0 +1,41 @@
+{
+  "name": "widget/form",
+  "type": "library",
+  "description": "Javascript widget form",
+  "keywords": [
+    "ubyte",
+    "client-side",
+    "widget",
+    "form"
+  ],
+  "homepage": "https://github.com/energia-source/widget-form",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paolo Fabris",
+      "email": "support@ubyte.it",
+      "homepage": "https://www.ubyte.it/",
+      "role": "Developer"
+    },
+    {
+      "name": "Gabriele Luigi Masero",
+      "email": "support@ubyte.it",
+      "homepage": "https://www.ubyte.it/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Form\\": "lib/"
+    }
+  },
+  "require": {
+    "energia-source/knight-artifact-entity": "*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/energia-source/knight-artifact-entity"
+    }
+  ]
+}

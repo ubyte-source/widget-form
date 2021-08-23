@@ -1,0 +1,8 @@
+#form-tooltip-container{opacity:0;text-align:center;color:#fff;background:rgba(0,0,0,.6);position:absolute;z-index:16777270;padding:15px;pointer-events:none;border-radius:5px;margin-top:10px;transition:opacity .5s ease-in-out}
+#form-tooltip-container.top{margin-top:20px}
+#form-tooltip-container.show{opacity:1;margin-top:10px;pointer-events:all}
+#form-tooltip-container.show.top{margin-top:10px}
+#form-tooltip-container:after{width:0;height:0;border-left:10px solid transparent;border-right:10px solid transparent;border-top:10px solid rgba(0,0,0,.6);content:'';position:absolute;left:50%;bottom:-10px;margin-left:-10px}
+#form-tooltip-container.top:after{border-top-color:transparent;border-bottom:10px solid rgba(0,0,0,.6);top:-20px;bottom:auto}
+#form-tooltip-container.left:after{left:10px;margin:0}
+#form-tooltip-container.right:after{right:10px;left:auto;margin:0}

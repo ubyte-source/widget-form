@@ -1,0 +1,16 @@
+div.form.content label i.paste { cursor: pointer; }
+
+div.form.content div.chips-wrapper form { margin: 0 !important; }
+div.form.content div.chips-wrapper div.form.content { padding: 0; }
+div.form.content div.chips-wrapper div.form.content.action { margin-top: 0; padding-left: 8px; }
+
+div.form.content div.chips-wrapper div.chips { padding: 4px; margin-top: 10px; min-height: 45px; outline: none; background-color: #f5f5f5; border: 1px solid #cecece; border-radius: 2px; cursor: pointer; }
+div.form.content div.chips-wrapper div.chips div.chip { display: inline-block; height: 32px; line-height: 32px; padding: 0 0 0 12px; margin-bottom: 5px; margin-right: 5px; border-radius: 16px; }
+div.form.content div.chips-wrapper div.chips div.chip { background-color: #e4e4e4; border: 1px solid #cccccc; }
+div.form.content div.chips-wrapper div.chips div.chip.added { background-color: #b5c8e4; border: 1px solid #4776bd; }
+div.form.content div.chips-wrapper div.chips div.chip.pasted { background-color: #ffead6; border: 1px solid #ff9933; }
+
+div.form.content div.chips-wrapper div.chips div.chip i.close { text-align: center; width: 32px; height: 32px; float: right; cursor: pointer; margin-left: 10px; line-height: 32px;border-radius: 50%; font-size: 16px !important; }
+div.form.content div.chips-wrapper div.chips div.chip i.close:hover { background-color: rgba(72, 72, 72, 0.25); }
+
+div.form.content div.chips-wrapper div.content div.input { border-color: #cecece !important; }

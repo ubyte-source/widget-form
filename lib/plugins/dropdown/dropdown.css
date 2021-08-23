@@ -1,0 +1,28 @@
+div.form.content { cursor: pointer; }
+div.form.content p.dropdown { position: relative; height: 24px; padding: 4px; background-color: #fff; border: 1px solid #cecece; border-radius: 2px; }
+div.form.content p.dropdown i { font-size: 24px !important; float: left; width: 24px; }
+div.form.content p.dropdown b, div.form.content p.dropdown div.action, div.form.content p.dropdown ul.option { position: absolute; }
+div.form.content p.dropdown b { left: 4px; right: 36px; font-size: 16px; }
+div.form.content p.dropdown div.action { top: -1px; right: -1px; bottom: -1px; width: 32px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; }
+div.form.content p.dropdown div.action { background-color: #f1f1f1; border: 1px solid #cecece; }
+div.form.content p.dropdown div.action i { line-height: 32px; color: #9e9e9e; margin-left: 4px; }
+div.form.content p.dropdown div.action i.expand_more { font-size: 32px !important; margin-left: 0; }
+div.form.content p.dropdown div.action:hover { background-color: #e1e1e1;}
+div.form.content p.dropdown b input { width: 100%; font-size: 16px; }
+
+div.form.content p.dropdown.icon b { left: 36px; }
+
+div.form.content p.dropdown ul.option { top: 32px; right: 32px; left: -1px; display: none; max-height: 200px; overflow-y: auto; z-index: 2048; }
+div.form.content p.dropdown ul.option { background-color: #fff; border: 1px solid #ccc; border-radius: 2px; }
+div.form.content p.dropdown ul.option.active { display: block; }
+div.form.content p.dropdown ul.option li:hover { background-color: #f1f1f1; color: #9e9e9e; }
+div.form.content p.dropdown ul.option li.hide { display: none; }
+
+div.form.content p.dropdown ul.option li div.wrapper { position: relative; padding: 4px; }
+div.form.content p.dropdown ul.option li div.wrapper i { margin-right: 8px; }
+div.form.content p.dropdown ul.option li div.wrapper span { font-size: 16px; }
+div.form.content p.dropdown ul.option li div.wrapper.ellipsis, div.form.content p.dropdown b.ellipsis { white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis; }
+
+div.form.content.danger p.dropdown { margin-left: 32px; border-color: #f44336; border-top-left-radius: 0; border-bottom-left-radius: 0; }
+div.form.content.danger p.dropdown div.action { background-color: #f8d7da; border-color: #f44336; }
+div.form.content.danger p.dropdown div.action i { color: #f44336; }
