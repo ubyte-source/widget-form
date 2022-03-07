@@ -6,17 +6,17 @@ Widget Javascript Form is a library used to create a form in your web page to in
 
 library:
 - [window.Form.Plugin](https://github.com/energia-source/widget-form/tree/main/lib/plugins)
-- [Common] (https://github.com/energia-source/widget-form/tree/main/lib#class-common-usable-methods)
-- [window.Form] (https://github.com/energia-source/widget-form/tree/main/lib#class-windowform-usable-methods)
-- [window.Form.Row] (https://github.com/energia-source/widget-form/tree/main/lib#class-windowformrow-usable-methods)
-- [window.Form.Plugin] (https://github.com/energia-source/widget-form/tree/main/lib#class-windowformplugin-usable-methods)
-- [window.Form.Plugin.Text] (https://github.com/energia-source/widget-form/tree/main/lib#class-windowformplugintext-usable-methods)
-- [window.Form.Container] (https://github.com/energia-source/widget-form/tree/main/lib#class-windowformcontainer-usable-methods)
-- [window.Form.Container.Events] (https://github.com/energia-source/widget-form/tree/main/lib#class-windowformcontainerevents-usable-methods)
-- [window.Form.Container.Preloader] (https://github.com/energia-source/widget-form/tree/main/lib#class-windowformcontainerpreloader-usable-methods)
-- [window.Form.Container.Preloader.Manager] (https://github.com/energia-source/widget-form/tree/main/lib#class-windowformcontainerpreloadermanager-usable-methods)
-- [window.Form.Container.Notice] (https://github.com/energia-source/widget-form/tree/main/lib#class-windowformcontainernotice-usable-methods)
-- [window.Form.Container.Danger] (https://github.com/energia-source/widget-form/tree/main/lib#class-windowformcontainerdanger-usable-methods)
+- [Common](https://github.com/energia-source/widget-form/tree/main/lib#class-common-usable-methods)
+- [window.Form](https://github.com/energia-source/widget-form/tree/main/lib#class-windowform-usable-methods)
+- [window.Form.Row](https://github.com/energia-source/widget-form/tree/main/lib#class-windowformrow-usable-methods)
+- [window.Form.Plugin](https://github.com/energia-source/widget-form/tree/main/lib#class-windowformplugin-usable-methods)
+- [window.Form.Plugin.Text](https://github.com/energia-source/widget-form/tree/main/lib#class-windowformplugintext-usable-methods)
+- [window.Form.Container](https://github.com/energia-source/widget-form/tree/main/lib#class-windowformcontainer-usable-methods)
+- [window.Form.Container.Events](https://github.com/energia-source/widget-form/tree/main/lib#class-windowformcontainerevents-usable-methods)
+- [window.Form.Container.Preloader](https://github.com/energia-source/widget-form/tree/main/lib#class-windowformcontainerpreloader-usable-methods)
+- [window.Form.Container.Preloader.Manager](https://github.com/energia-source/widget-form/tree/main/lib#class-windowformcontainerpreloadermanager-usable-methods)
+- [window.Form.Container.Notice](https://github.com/energia-source/widget-form/tree/main/lib#class-windowformcontainernotice-usable-methods)
+- [window.Form.Container.Danger](https://github.com/energia-source/widget-form/tree/main/lib#class-windowformcontainerdanger-usable-methods)
 
 <br>
 

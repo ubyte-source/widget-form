@@ -26,7 +26,7 @@ button.setOnClick(function(){
 ## Structure
 
 library:
-- [window.Form] (https://github.com/energia-source/widget-form/tree/main/lib)
+- [window.Form](https://github.com/energia-source/widget-form/tree/main/lib)
 
 <br>
 
