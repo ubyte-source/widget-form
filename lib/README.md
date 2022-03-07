@@ -22,7 +22,7 @@ library:
 
 #### ***Class Common usable methods***
 
-## `findContainer(name, deep)`
+##### `findContainer(name, deep)`
 
 Find a container by name
 
@@ -31,7 +31,7 @@ Find a container by name
    * `deep` — If true, the search will be recursive.
  * **Returns:** The container with the specified name.
 
-## `getPlugins(deep)`
+##### `getPlugins(deep)`
 
 Get all the plugins in the current container and all its sub-containers
 
@@ -40,7 +40,7 @@ Get all the plugins in the current container and all its sub-containers
      only return plugins in the current container.
  * **Returns:** An array of plugins.
 
-## `getPackages(value, deep)`
+##### `getPackages(value, deep)`
 
 Get all the packages that are related to the value
 
@@ -51,7 +51,7 @@ Get all the packages that are related to the value
      plugins of the current plugin.
  * **Returns:** The getPackages function returns an array of objects.
 
-## `getInputs(deep)`
+##### `getInputs(deep)`
 
 Get all the inputs from all the plugins
 
@@ -60,7 +60,7 @@ Get all the inputs from all the plugins
 
      plugin and the input object.
 
-## `getInput(name, deep)`
+##### `getInput(name, deep)`
 
 Get the input of a container
 
@@ -69,7 +69,7 @@ Get the input of a container
    * `deep` — The number of levels to search for the container.
  * **Returns:** The input object.
 
-## `setAutoDispatch(status, deep)`
+##### `setAutoDispatch(status, deep)`
 
 Set the autoDispatch property of all plugins in the form to the specified value
 
@@ -79,7 +79,7 @@ Set the autoDispatch property of all plugins in the form to the specified value
 
      will only be called on the plugin that called it.
 
-## `get()`
+##### `get()`
 
 Get all the packages in the current session
 

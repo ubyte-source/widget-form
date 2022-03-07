@@ -11,79 +11,79 @@ library:
 
 #### ***Class window.Form.Plugin.Tooltip usable methods***
 
-## `static handle()`
+##### `static handle()`
 
 It returns a string.
 
  * **Returns:** The string 'data-handle-event'
 
-## `static id()`
+##### `static id()`
 
 *The `id()` function returns the id of the form-tooltip-container div
 
  * **Returns:** The `id()` method returns the `id` of the `<div>` element.
 
-## `static attribute()`
+##### `static attribute()`
 
 *The attribute() function returns the value of the attribute that will be used to store the form data.*
 
  * **Returns:** The `static attribute()` method returns the string `'data-tooltip-form'`.
 
-## `constructor()`
+##### `constructor()`
 
 Create a JavaScript object that will contain the tooltip elements
 
-## `setText(text)`
+##### `setText(text)`
 
 Set the text of the icon
 
  * **Parameters:** `text` — The text to be displayed in the icon.
  * **Returns:** The object itself.
 
-## `setWidth(width)`
+##### `setWidth(width)`
 
 Set the width of the chart
 
  * **Parameters:** `width` — The width of the chart.
  * **Returns:** The chart object.
 
-## `getWidth()`
+##### `getWidth()`
 
 Get the width of the chart
 
  * **Returns:** The width of the chart.
 
-## `getIcon()`
+##### `getIcon()`
 
 Create an icon element, add it to the tooltip, and return it
 
  * **Returns:** The icon element.
 
-## `getTooltip()`
+##### `getTooltip()`
 
 Get the tooltip element if it exists, otherwise create it
 
  * **Returns:** The tooltip element.
 
-## `show(ev)`
+##### `show(ev)`
 
 Show the tooltip when the user hovers over the element
 
  * **Parameters:** `ev` — The event object.
  * **Returns:** Nothing
 
-## `hide()`
+##### `hide()`
 
 Hide the tooltip
 
-## `handleEvent(event)`
+##### `handleEvent(event)`
 
 If the event target has the attribute we're looking for, execute the function
 
  * **Parameters:** `event` — The event object that was passed to the handler.
  * **Returns:** The `handleEvent` method is being returned.
 
-## `static closestAttribute(target, attribute, html)`
+##### `static closestAttribute(target, attribute, html)`
 
 Find the closest attribute to the target element
 
