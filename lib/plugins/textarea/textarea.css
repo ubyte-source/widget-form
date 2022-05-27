@@ -1,4 +1,4 @@
-div.form.content div.input textarea { width: 100%; display: block; font-size: 16px; line-height: 16px; border: none; box-sizing: border-box; resize: vertical; }
+div.form.content div.input textarea { width: 100%; display: block; font-size: 16px; line-height: 16px; border: none; box-sizing: border-box; resize: vertical; outline: none; }
 div.form.content div.error.textarea { top: 27px; bottom: 0; }
 
 div.form.content div.input div.preloader { position: absolute; top: 0; left: 0; bottom: 0; right: 0; background-color: rgba(240,240,240, 0.4); z-index: 256; }
