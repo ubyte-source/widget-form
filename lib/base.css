@@ -23,7 +23,7 @@ div.form.content div.input input { width: 100%; font-size: 16px; outline: none; 
 div.form.content div.error { position: absolute; display: none; padding: 4px; background-color: #f8d7da; border: 1px solid #f44336; border-top-left-radius: 2px; border-bottom-left-radius: 2px; cursor: default; }
 div.form.content div.error, div.form.content div.error i { color: #f44336; }
 
-div.form.content.action { margin-top: 31px; }
+div.form.content.action { margin-top: 32px; }
 div.form.content.action button { display: inline-block; line-height: 33px; padding: 0; margin: 0; width: 100%; text-align: center; outline: 0; border: none; background-color: #f1f1f1; border: 1px solid #cecece; cursor: pointer; border-radius: 2px; }
 div.form.content.action button i { color: #9e9e9e; }
 

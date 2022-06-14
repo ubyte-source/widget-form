@@ -82,6 +82,12 @@ Set the pattern of the input element
  * **Parameters:** `pattern` — The pattern to set.
  * **Returns:** The question object.
 
+##### `reset()`
+
+The reset function sets the value of the input field to an empty
+
+ * **Returns:** The object itself.
+
 ##### `arrange()`
 
 Arrange the data in the order you want it to be
