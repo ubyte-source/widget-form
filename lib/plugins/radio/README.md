@@ -108,9 +108,9 @@ Create a div element with a class of "wrapper" and append an unordered list to i
 
 ##### `getList()`
 
-It returns the list object from the elements object.
+The function getList() returns the value of the variable list
 
- * **Returns:** An object with a property called list.
+ * **Returns:** The list array is being returned.
 
 ##### `getLi(id)`
 
@@ -136,37 +136,15 @@ Get the value of the input and return it as a JavaScript object
 Set the selected value
 
  * **Parameters:** `value` — The value of the item to be selected.
- * **Returns:** The `setSelected` method returns the `Organizer` object itself. This is so that we
-
-     can chain multiple method calls together.
+ * **Returns:** The value of the selected item.
 
 ##### `out()`
 
-Returns a string that is the JavaScript representation of the current object
+This function returns the wrapper.
 
- * **Returns:** The reset() method returns a new instance of the class.
+ * **Returns:** The wrapper is being returned.
 
 #### ***Class window.Form.Plugin.Radio.Li usable methods***
-
-##### `static attribute()`
-
-The attribute() function returns the value of the attribute that is used to identify the radio button
-
- * **Returns:** The `static attribute()` method returns the value of the `data-form-radio-li-value`
-
-     attribute.
-
-##### `static check()`
-
-*This function checks if the radio button is checked and returns the string 'radio_button_checked' if it is.*
-
- * **Returns:** The string 'radio_button_checked'
-
-##### `static blank()`
-
-Returns the name of the blank radio button image
-
- * **Returns:** The `blank` function returns the `radio_button_unchecked` icon.
 
 ##### `constructor(radio, id, text)`
 
@@ -225,7 +203,6 @@ Create a list item element and set its attributes
 Return the list item element
 
  * **Returns:** The getLi() method is being called and the return value is being passed to the
-
      out() method.
 
 ##### `handleEvent(event)`
@@ -235,15 +212,15 @@ If the event target has a matching attribute, execute the function
  * **Parameters:** `event` — The event object that was passed to the function.
  * **Returns:** The `handleEvent` method is being returned.
 
-##### `organize()`
+##### `select()`
 
 Reset the radio button and the input field, and set the icon to the check mark
 
-##### `reset()`
+##### `uncheck()`
 
 Reset the checkbox to unchecked and remove the selected class from the list item
 
- * **Returns:** The `this` keyword is being returned.
+ * **Returns:** The li instance is being returned
 
 ##### `click()`
 

@@ -1,0 +1,10 @@
+div.form.content div.wrapper.checkbox { position: relative; }
+div.form.content div.wrapper.checkbox ul.option li { position: relative; padding: 8px; }
+div.form.content div.wrapper.checkbox ul.option li i { font-size: 24px; color: #666666; }
+div.form.content div.wrapper.checkbox ul.option li input.checkbox { display: none; }
+div.form.content div.wrapper.checkbox ul.option li label.text { position: absolute; left: 36px; top: 2px; right: 0; bottom: 2px; line-height: 30px; }
+div.form.content div.wrapper.checkbox ul.option li.selected i { color: #397be6 !important; }
+div.form.content div.wrapper.checkbox ul.option li.selected label.text { font-weight: bolder; }
+div.form.content div.wrapper.checkbox ul.option li:hover label.text { color: #666666; }
+
+div.form.content div.wrapper.checkbox div.preloader { background-color: transparent !important; cursor: not-allowed; }
